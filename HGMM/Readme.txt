@@ -9,7 +9,7 @@ This package provides Matlab code with examples for  the HGMM algorithm.
 
 Unpack the HGMM distribution archive.
 
-[//]: We have compiled the cpp files used in this code.
+[comment]: <> We have compiled the cpp files used in this code.
 
 Run HGMM_make (in Matlab) to mex-compile some essential files if needed. 
 
