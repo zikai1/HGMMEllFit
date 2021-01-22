@@ -6,7 +6,10 @@ Traditional methods mainly rely on the least-squares principle for ellipse fitti
 # 2. How to use
 For easy use, the code is implemented by MATLAB. 
 - Download the code by 
-git clone https://github.com/zikai1/HGMMEllFit
+"git clone https://github.com/zikai1/HGMMEllFit"
+
 - Complie the cpp files in the HGMM_make directory in MATLAB to generate mex files. 
+
 - Add the mex files by "addpath(genpath('.\HGMMEllFit\HGMM_make'))" .
+
 - Run the demo file "demo.m" to generate ellipse fitting results in outlier-contained cases.
