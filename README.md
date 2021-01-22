@@ -13,3 +13,8 @@ For easy use, the code is implemented by MATLAB.
 - Add the mex files by "addpath(genpath('.\HGMMEllFit\HGMM_make'))" .
 
 - Run the demo file "demo.m" to generate ellipse fitting results in outlier-contained cases.
+
+# 3. Suggestions
+There are mainly three parameters in our algorithm, to get better performance, we provide some suggestions.
+- The bandwidth h, which acts as a smoothing paramter. We suggest $$h\in [4, 1]$$ for outer fitting, and 
+
