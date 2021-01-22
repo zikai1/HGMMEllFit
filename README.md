@@ -16,7 +16,7 @@ For easy use, the code is implemented by MATLAB.
 
 # 3. Suggestions
 There are mainly three parameters in our algorithm, to get better performance, we provide some suggestions.
-- The bandwidth h, which acts as a smoothing paramter. We suggest $h\in [4, 1]$ for outer fitting, and $h\in [0.9, 0.6]$ for inner fitting.
+- The bandwidth h, which acts as a smoothing parameter. We suggest $h\in [4, 1]$ for outer fitting, and $h\in [0.9, 0.6]$ for inner fitting.
 - The point number N in the growing region. When the ellipse is quite large, we suggest slightly tuning N higher.
 - The neighborhood number $\epsilon$. If there are a large part of outliers, a larger $\epsilon$ will improve the fitting accuracy.
 
