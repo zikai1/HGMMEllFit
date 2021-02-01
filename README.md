@@ -6,10 +6,10 @@ Traditional methods mainly rely on the least-squares principle for ellipse fitti
 
 <table>
     <tr>
-        <td ><center><img src="https://github.com/zikai1/HGMMEllFit/blob/main/eye.png" > </center></td>
-        <td ><center><img src="https://github.com/zikai1/HGMMEllFit/blob/main/eyefit.png" > </center></td>
-        <td ><center><img src="https://github.com/zikai1/HGMMEllFit/blob/main/fetal.png" > </center></td>
-        <td ><center><img src="https://github.com/zikai1/HGMMEllFit/blob/main/fetal_fit.png" > </center></td>
+        <td ><center><img src="https://github.com/zikai1/HGMMEllFit/blob/main/eye.png" width="250"> </center></td>
+        <td ><center><img src="https://github.com/zikai1/HGMMEllFit/blob/main/eyefit.png" width="250" > </center></td>
+        <td ><center><img src="https://github.com/zikai1/HGMMEllFit/blob/main/fetal.png"  width="250"> </center></td>
+        <td ><center><img src="https://github.com/zikai1/HGMMEllFit/blob/main/fetal_fit.png" width="250"> </center></td>
     </tr>
 </table>
 
