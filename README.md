@@ -8,6 +8,7 @@ Traditional methods mainly rely on the least-squares principle for ellipse fitti
     <tr>
         <td ><center><img src="https://github.com/zikai1/HGMMEllFit/blob/main/eye.png" > </center></td>
         <td ><center><img src="https://github.com/zikai1/HGMMEllFit/blob/main/eyefit.png" > </center></td>
+        
         <td ><center><img src="https://github.com/zikai1/HGMMEllFit/blob/main/fetal.png" > </center></td>
         <td ><center><img src="https://github.com/zikai1/HGMMEllFit/blob/main/fetal_fit.png" > </center></td>
     </tr>
@@ -31,5 +32,5 @@ There are mainly three parameters in our algorithm, to get better performance, w
 - The neighborhood number $\epsilon$ in the growing region. If there are a large part of outliers, we suggest using a larger $\epsilon$ to improve the fitting accuracy.
 
 ## 4. Questions
-If you have any questions, please send me e-mail: <zhaomingyang16@mails.ucas.ac.cn>,  or put the queations at the "Issues". 
+If you have any questions, please send me e-mail: <zhaomingyang16@mails.ucas.ac.cn>,  or put the questions at the "Issues". 
 
