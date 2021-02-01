@@ -30,6 +30,6 @@ There are mainly three parameters used in our algorithm, to get better performan
 - The point number N in the growing region. When the ellipse is quite large, we suggest slightly tuning N higher.
 - The neighborhood number $\epsilon$ in the growing region. If there are a large part of outliers, we suggest using a larger $\epsilon$ to improve the fitting accuracy.
 
-## 4. Questions
+## 4. Questions & Answers
 If you have any questions, please send me e-mail: <zhaomingyang16@mails.ucas.ac.cn>,  or put the questions at the "Issues". 
 
