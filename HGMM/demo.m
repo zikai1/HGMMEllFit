@@ -9,7 +9,7 @@ function []=demo()
 
 % To get better performance, you maybe need to slightly tune three parameters in 
 % the function HGMM_fit, ie, bandwidth h, point number in the growing
-% region N, and neighborhood radius R
+% region N, and neighborhood radius R. Informations are provided in the READ.m
 
 % For very large ellipses and very sparse input data points, larger N and R
 % are suggested.
