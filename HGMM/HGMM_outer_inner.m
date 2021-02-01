@@ -69,7 +69,7 @@ fix=1000;
 while h>hmin
     %h
     [wf, gmm_f_mu, gmm_f_var] = model_f_pixel(Sample,h);
-    [f2_L2, ~] = mexGaussTransformForEllipse1(wf, gmm_f_mu, gmm_f_var, wf, gmm_f_mu, gmm_f_var);
+    [f2_L2, ~] = mexGaussTransformForEllipse(wf, gmm_f_mu, gmm_f_var, wf, gmm_f_mu, gmm_f_var);
     [parms,~] = fmincon(@gmmregelp_L2_costfunc,IniPat, [], [], [], [], lb, rb, [], options, ...
         N, h, wf, gmm_f_mu, gmm_f_var, f2_L2);
 
