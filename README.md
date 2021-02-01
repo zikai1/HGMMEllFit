@@ -25,7 +25,7 @@ For easy use, the code is implemented by MATLAB R2019a.
 - Run the demo file "demo.m" to generate ellipse fitting results in outlier-contained cases.
 
 ## 3. Suggestions
-There are mainly three parameters in our algorithm, to get better performance, we provide some suggestions for them.
+There are mainly three parameters used in our algorithm, to get better performance, we provide some suggestions for these parameters.
 - The bandwidth h, which acts as a smoothing parameter. We suggest $h\in [4, 1]$ for the outer fitting, and $h\in [0.9, 0.6]$ for the inner fitting.
 - The point number N in the growing region. When the ellipse is quite large, we suggest slightly tuning N higher.
 - The neighborhood number $\epsilon$ in the growing region. If there are a large part of outliers, we suggest using a larger $\epsilon$ to improve the fitting accuracy.
