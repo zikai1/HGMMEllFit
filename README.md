@@ -38,3 +38,26 @@ We are pleased to announce the publication of our recent work on *multidimension
 ## 5. Questions & Answers
 If you have any questions, please send me e-mail: <zhaomingyang16@mails.ucas.ac.cn>,  or put the questions at the "Issues". 
 
+## Citation
+If you find our work useful in your research, please cite our paper:  
+@article{zhao2021robust,
+  title={Robust ellipse fitting using hierarchical Gaussian mixture models},
+  author={Zhao, Mingyang and Jia, Xiaohong and Fan, Lubin and Liang, Yuan and Yan, Dong-Ming},
+  journal={IEEE Transactions on Image Processing},
+  volume={30},
+  pages={3828--3843},
+  year={2021},
+  publisher={IEEE}
+}
+
+
+@article{zhao2024bayesian,
+  title={A Bayesian Approach Toward Robust Multidimensional Ellipsoid-Specific Fitting},
+  author={Zhao, Mingyang and Jia, Xiaohong and Ma, Lei and Shi, Yuke and Jiang, Jingen and Li, Qizhai and Yan, Dong-Ming and Huang, Tiejun},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2024},
+  publisher={IEEE}
+}
+
+
+
