@@ -1,4 +1,4 @@
-# Robust Ellipse Fitting Using Hierarchical Gaussian Mixture Models
+# Robust Ellipse Fitting Using Hierarchical Gaussian Mixture Models (TIP)
 ## 1. Motivation
 Traditional methods mainly rely on the least-squares principle for ellipse fitting, however, as the Gauss-Markov theorem pointed, they are sensitive or susceptible to outliers. To solve this problem, we propose a novel method for robust ellipse fitting using hierarchical Gaussian mixture models. The method consists of two layers, where the first layer aims to locating ellipses through a distance-density-based region growing, and the second one further improves the fitting accuracy. Since we combine distance and density to decide correct ellipses, the method is quite robust against noise and outliers. Moreover, due to the hierarchical structure, our proposed method greatly narrows down the iterative scope of the kernel bandwidth, thereby accelerating the fitting process.
 
@@ -30,6 +30,11 @@ There are mainly three parameters used in our algorithm, to get better performan
 - The point number N in the growing region. When the ellipse is quite large, we suggest slightly tuning N higher.
 - The neighborhood number $\epsilon$ in the growing region. If there are a large part of outliers, we suggest using a larger $\epsilon$ to improve the fitting accuracy.
 
-## 4. Questions & Answers
+## 4. Update
+We are pleased to announce the publication of our recent work on *multidimensional ellipsoid-specific fitting* in T-PAMI. This comprehensive study () extends from 2D ellipse fitting, 3D ellipsoid fitting, to N-dimensional ellipsoid fitting. We encourage you to utilize our newly released code to achieve enhanced fitting results in your research.
+
+
+
+## 5. Questions & Answers
 If you have any questions, please send me e-mail: <zhaomingyang16@mails.ucas.ac.cn>,  or put the questions at the "Issues". 
 
