@@ -31,7 +31,7 @@ There are mainly three parameters used in our algorithm, to get better performan
 - The neighborhood number $\epsilon$ in the growing region. If there are a large part of outliers, we suggest using a larger $\epsilon$ to improve the fitting accuracy.
 
 ## 4. Update
-We are pleased to announce the publication of our recent work on *multidimensional ellipsoid-specific fitting* in T-PAMI. This comprehensive study () extends from 2D ellipse fitting, 3D ellipsoid fitting, to N-dimensional ellipsoid fitting. We encourage you to utilize our newly released code to achieve enhanced fitting results in your research.
+We are pleased to announce the publication of our recent work on *multidimensional ellipsoid-specific fitting* in T-PAMI. This comprehensive study (https://github.com/zikai1/BayFit) extends from 2D ellipse fitting, 3D ellipsoid fitting, to N-dimensional ellipsoid fitting. We encourage you to utilize our newly released code to achieve enhanced fitting results in your research.
 
 
 
